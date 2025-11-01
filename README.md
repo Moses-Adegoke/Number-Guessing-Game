@@ -16,3 +16,18 @@ This is a number guessing game where the program randomly select a secret number
 
 
 
+## Review by Israel Oladeji
+### Fix a potential user error (Handle non-numeric user input)
+
+### Description
+If the user input is somthing that is not a number, for example, special character, string, etc., display a message, 'Invalid input, please enter a number between 1 and 10', and then ask the user to try again.
+
+### Algorithm
+IF the user input is not a number, 
+    THEN display a message, 'Invalid input, please enter a number between 1 and 10'
+    Ask the user to try again
+    ELSE continue the normal guessing
+END IFESLE
+
+
+
